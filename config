@@ -170,6 +170,7 @@ NGX_ADDON_SRCS="$NGX_ADDON_SRCS                         \
     $ngx_addon_dir/src/ngx_http_lua_contentby.c         \
     $ngx_addon_dir/src/ngx_http_lua_rewriteby.c         \
     $ngx_addon_dir/src/ngx_http_lua_accessby.c          \
+    $ngx_addon_dir/src/ngx_http_lua_logby.c             \
     $ngx_addon_dir/src/ngx_http_lua_setby.c             \
     $ngx_addon_dir/src/ngx_http_lua_capturefilter.c     \
     $ngx_addon_dir/src/ngx_http_lua_clfactory.c         \
@@ -211,6 +212,7 @@ NGX_ADDON_DEPS="$NGX_ADDON_DEPS                         \
     $ngx_addon_dir/src/ngx_http_lua_contentby.h         \
     $ngx_addon_dir/src/ngx_http_lua_rewriteby.h         \
     $ngx_addon_dir/src/ngx_http_lua_accessby.h          \
+    $ngx_addon_dir/src/ngx_http_lua_logby.h             \
     $ngx_addon_dir/src/ngx_http_lua_setby.h             \
     $ngx_addon_dir/src/ngx_http_lua_capturefilter.h     \
     $ngx_addon_dir/src/ngx_http_lua_clfactory.h         \
